@@ -1,0 +1,32 @@
+{
+  "name": "TestProject",
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "Packages": {
+        "$className": "Folder",
+        "RandomEcs": {
+          "$path": "Lib"
+        }
+      },
+      "Shared": {
+        "$path": "TestProject/Shared"
+      }
+    },
+
+    "ServerScriptService": {
+      "Server": {
+        "$path": "TestProject/Server"
+      }
+    },
+
+    "StarterPlayer": {
+      "StarterPlayerScripts": {
+        "Client": {
+          "$path": "TestProject/Client"
+        }
+      }
+    }
+  }
+}

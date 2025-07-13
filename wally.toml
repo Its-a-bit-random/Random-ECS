@@ -1,0 +1,14 @@
+[package]
+name = "its-a-bit-random/randomecs"
+description = "TODO"
+version = "1.0.0"
+
+license = "MIT"
+authors = ["", ""]
+
+realm = "shared"
+registry = "https://github.com/upliftgames/wally-index"
+
+exclude = ["**"]
+include = ["default.project.json", "lib", "lib/**", "LICENSE.txt", "wally.toml"]
+private = true
