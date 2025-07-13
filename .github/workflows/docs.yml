@@ -28,7 +28,7 @@ jobs:
         run: npm i -g moonwave
 
       - name: Build
-        run: moonwave build
+        run: moonwave build --code Lib
 
       - name: Upload
         uses: actions/upload-pages-artifact@v3
